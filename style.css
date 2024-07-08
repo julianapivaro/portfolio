@@ -35,7 +35,7 @@ body{
 }
 
 .nav-link:hover{
-    background-color: blueviolet;
+    background-color: rgb(223, 11, 187);
 }
 
 .section{
@@ -45,10 +45,12 @@ color: black;
 }
 
 .home{
-    background: linear-gradient(to left,#333, #333 50%, #eee 75%, #333 75%);
+    background: linear-gradient(#c502bb, #c7a5db);
 }
 
 .about, .skills{
     background-color: #fff;
 }
+
+
 
