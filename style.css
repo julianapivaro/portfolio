@@ -52,5 +52,117 @@ color: black;
     background-color: #fff;
 }
 
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-image, .about-text{
+    /*flex: 1 1 45%;*/
+    /*Flex item to grow and take up additional space*/
+    flex-grow: 1;
+    /*Flex item to shrink and give up space*/
+    flex-shrink: 1;
+    /*inital size of the flex before growth*/
+    flex-basis: 45%;
+    padding: 10px;
+
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
 
 
+.projects{
+    background-color: #c7a5db;
+
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-item{
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid blanchedalmond;
+    
+}
+
+.project-item img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+.project-item a{
+    display: block;
+    margin-top: 10px;
+    color: rgb(97, 7, 85);
+    text-decoration: none;
+}
+
+.skills ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.skills li{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #570152;   
+    color: white;
+    border-radius: 14px;
+
+}
+
+
+.contact-form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 14px;
+
+}
+
+.contact-form label{
+    display: block;
+    margin: 10px 5px;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px ;
+}
+
+.contact-form button{
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
