@@ -73,7 +73,7 @@ color: black;
 }
 
 .about-image img{
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     border-radius: 24px;
 }
